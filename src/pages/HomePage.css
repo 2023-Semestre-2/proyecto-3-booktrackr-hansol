@@ -1,0 +1,52 @@
+.carousel-section {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-content{
+  padding: 20px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center; 
+}
+
+
+.book-item {
+  width: 400px; 
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+  margin-right: 0px;
+}
+
+.book-cover-container {
+  width: 50%; 
+  height: 100%;
+}
+
+.book-cover {
+  width: 160px; 
+  height: 240px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  margin: auto; 
+  padding: 20px; 
+}
+
+
+.book-info {
+  padding: 10px;
+  width: 50%;
+}
+
+.book-info .MuiTypography-subtitle1, .book-info .MuiTypography-body2 {
+  margin: 5px 0;
+}
